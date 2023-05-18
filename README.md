@@ -19,6 +19,7 @@
   "message": "User created successfully"
 }
 ```
+### Вход
 > POST /logUser
 ```
 {
