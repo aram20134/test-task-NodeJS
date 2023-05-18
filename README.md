@@ -97,7 +97,7 @@ JWT TOKEN
   blog: {
     id: NUMBER,
     date: DATE,
-    message: NUMBER,
+    message: STRING,
     author: NUMBER,
     userId: NUMBER,
     createdAt: DATE,
