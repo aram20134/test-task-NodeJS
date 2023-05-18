@@ -6,3 +6,6 @@
 
 ### Регистрация
 > POST /regUser
+```
+{name: STRING, email: STRING, password: STRING}
+```
