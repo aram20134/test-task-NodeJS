@@ -6,6 +6,29 @@
 
 ### Регистрация
 > POST /regUser
+Формат отправки данных
 ```
-{name: STRING, email: STRING, password: STRING}
+{
+  name: STRING, 
+  email: STRING, (с проверкой на @)
+  password: STRING
+}
+```
+Ответ
+```
+{
+  "message": "User created successfully"
+}
+```
+> POST /logUser
+Формат отправки данных
+```
+{
+  email: STRING, (с проверкой на @)
+  password: STRING
+}
+```
+Ответ
+```
+JWT TOKEN
 ```
