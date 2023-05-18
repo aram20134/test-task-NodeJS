@@ -5,3 +5,4 @@
 ссылка на API - https://api.evoaccessbrand.site/api/u
 
 ### Регистрация
+> POST /regUser
